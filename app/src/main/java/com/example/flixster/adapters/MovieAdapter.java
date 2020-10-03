@@ -22,6 +22,7 @@ import java.util.List;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> {
 
@@ -87,7 +88,15 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
                 // else imageUrl = poster image
                 imageUrl = movie.getPosterPath();
             }
-            Glide.with(context).load(imageUrl).into(tvPoster);
+            int radius = 30; // corner radius, higher value = more rounded
+            int margin = 10; // crop margin, set to 0 for corners with no crop
+            // rounded corners view
+            Glide.with(context)
+                    .load(imageUrl)
+                    .fitCenter()
+                    .transform(new RoundedCornersTransformation(radius, margin))
+                    .into(tvPoster);
+            //Glide.with(context).load(imageUrl).into(tvPoster);
 
             // 1. Register click listener on the whole row
             container.setOnClickListener(new View.OnClickListener() {
