@@ -12,9 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca184523-cdb4-41bc-b9a3-2af431453f44" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/flixster/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/flixster/DetailActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/flixster/adapters/MovieAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/flixster/adapters/MovieAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,22 +131,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040/-1024.-91.1024.1240@0.0.1920.1040" timestamp="1601615005571" />
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1601690593608">
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1601691797553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1024.-91.1024.1240@0.0.1920.1040" timestamp="1601690593608" />
-    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1601690593608">
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1024.-91.1024.1240@0.0.1920.1040" timestamp="1601691797553" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1601691797553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040/-1024.-91.1024.1240@0.0.1920.1040" timestamp="1601690593608" />
-    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1601690593608">
+    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040/-1024.-91.1024.1240@0.0.1920.1040" timestamp="1601691797553" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1601691797553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040/-1024.-91.1024.1240@0.0.1920.1040" timestamp="1601690593608" />
-    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1601690593608">
+    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040/-1024.-91.1024.1240@0.0.1920.1040" timestamp="1601691797553" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1601691797553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040/-1024.-91.1024.1240@0.0.1920.1040" timestamp="1601690593608" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040/-1024.-91.1024.1240@0.0.1920.1040" timestamp="1601691797553" />
     <state x="1071" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1601687954922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
