@@ -21,7 +21,8 @@ import okhttp3.Headers;
 
 public class DetailActivity extends YouTubeBaseActivity {
 
-    private final String YOUTUBE_API_KEY = getString(R.string.YOUTUBE_API_KEY);
+    private static final String YOUTUBE_API_KEY = "AIzaSyBO7VBGLRWb8FhLALAj5MHJzu75cI42B9k";
+            //getString(R.string.YOUTUBE_API_KEY);
     private static final String VIDEOS_URL = "https://api.themoviedb.org/3/movie/%d/videos?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed";
 
     TextView tvTitle;
@@ -73,7 +74,27 @@ public class DetailActivity extends YouTubeBaseActivity {
     }
 
     private void initializeYoutube(final String youtubeKey) {
+
+        // auto plays video for movies with rating above 5
+        if (ratingBar.getRating() > 5.0) {
+            youTubePlayerView.initialize(YOUTUBE_API_KEY, new YouTubePlayer.OnInitializedListener() {
+
+                @Override
+                public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
+                    Log.d("DetailActivity", "onInitializationSuccess for rating above 5");
+                    // do any work here to cue video, play video, etc.
+                    youTubePlayer.loadVideo(youtubeKey);
+                }
+
+                @Override
+                public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
+                    Log.d("DetailActivity", "onInitializationFailure");
+                }
+            });
+        }
+        // cues the video if the rating is below 5
         youTubePlayerView.initialize(YOUTUBE_API_KEY, new YouTubePlayer.OnInitializedListener() {
+
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
                 Log.d("DetailActivity", "onInitializationSuccess");
